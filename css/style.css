@@ -668,13 +668,14 @@ ul li {
 
 .imgScale {
     position: relative;
-    transition: transform 20000ms;
+    /*transition: transform 20000ms;*/
     border: 0;
 
 }
 
 .imgScale:hover {
     filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     /*-ms-transform: scale(1.1); 
     -webkit-transform: scale(1.1); 
     transform: scale(1.1); */
