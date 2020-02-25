@@ -163,69 +163,72 @@ $(window).scroll(function() {
     });
 });
 
+// Remove comments from here once 4th and 5th projects are final
 
-   $(document).ready(function(){
-    $('#fourthClick').click(function(){
-        $('#fourthContent').show();
-         $('.imgScale').addClass('hide');
-          $('.work').addClass('shrink');
-            $('.portfolio').addClass('grow');
-            $("html,body").animate({scrollTop: $(".row").offset().top}, 0);
-
-            
-
-
-        
-        
-    });
-    $('.cls-pop, .close').click(function(){
-        $('#fourthContent').hide();
-        $('.imgScale').removeClass('hide');
-        $('.work').removeClass('shrink');
-            $('.portfolio').removeClass('grow');
-
-
-    });
-});
-
-      $(document).ready(function(){
-    $('#fifthClick').click(function(){
-        $('#fifthContent').show();
-         $('.imgScale').addClass('hide');
-          $('.work').addClass('shrink');
-            $('.portfolio').addClass('grow');
-            $("html,body").animate({scrollTop: $(".row").offset().top}, 0);
+//    $(document).ready(function(){
+//     $('#fourthClick').click(function(){
+//         $('#fourthContent').show();
+//          $('.imgScale').addClass('hide');
+//           $('.work').addClass('shrink');
+//             $('.portfolio').addClass('grow');
+//             $("html,body").animate({scrollTop: $(".row").offset().top}, 0);
 
             
 
 
         
         
-    });
+//     });
+//     $('.cls-pop, .close').click(function(){
+//         $('#fourthContent').hide();
+//         $('.imgScale').removeClass('hide');
+//         $('.work').removeClass('shrink');
+//             $('.portfolio').removeClass('grow');
+
+
+//     });
+// });
+
+//       $(document).ready(function(){
+//     $('#fifthClick').click(function(){
+//         $('#fifthContent').show();
+//          $('.imgScale').addClass('hide');
+//           $('.work').addClass('shrink');
+//             $('.portfolio').addClass('grow');
+//             $("html,body").animate({scrollTop: $(".row").offset().top}, 0);
+
+            
+
+
+        
+        
+//     });
     
-    $('.cls-pop, .close').click(function(){
-        $('#fifthContent').hide();
-        $('.imgScale').removeClass('hide');
-        $('.work').removeClass('shrink');
-            $('.portfolio').removeClass('grow');
+//     $('.cls-pop, .close').click(function(){
+//         $('#fifthContent').hide();
+//         $('.imgScale').removeClass('hide');
+//         $('.work').removeClass('shrink');
+//             $('.portfolio').removeClass('grow');
 
 
-    });
-});
+//     });
+// });
 
-// image click
 
-// function toggle_visibility(id) {
-//        var e = document.getElementById(id);
-//        if(e.style.display == 'block')
-//           e.style.display = 'none';
+// ----NEXT PROJECT-----
 
-//        else
-//           e.style.display = 'block';
-//       $(".clm").css("display", "none");
-      
+// $(document).ready(function(){
+//     $('.Nexttt').click(function(){
+//         $('#secondContent').show();
+//         $('#firstContent').hide();
+//             $("html,body").animate({scrollTop: $(".row").offset().top}, 0);
 
-//     }
+        
+//     });
+ 
+// });
+
+
 
 $(document).ready(function(){
   // Add smooth scrolling to all links
@@ -251,6 +254,48 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+$(document).ready(function () {
+    $('.Borrowell')
+        .mouseover(function () {
+        $(this).attr("src", "images/Borrowell/Borrowell-hifi.jpg");
+    })
+        .mouseout(function () {
+        $(this).attr("src", "images/Borrowell/Borrowell-wires.jpg");
+    });
+});
+
+$(document).ready(function () {
+    $('.NetApp')
+        .mouseover(function () {
+        $(this).attr("src", "images/NetApp/NetApp-hifi.jpg");
+    })
+        .mouseout(function () {
+        $(this).attr("src", "images/NetApp/NetApp-wires.jpg");
+    });
+});
+
+$(document).ready(function () {
+    $('.Mellow')
+        .mouseover(function () {
+        $(this).attr("src", "images/Mellow/Mellow-hifi.jpg");
+    })
+        .mouseout(function () {
+        $(this).attr("src", "images/Mellow/Mellow-wires.jpg");
+    });
+});
+
+$(document).ready(function () {
+    $('.Hims')
+        .mouseover(function () {
+        $(this).attr("src", "images/Hims/Hims-hifi.jpg");
+    })
+        .mouseout(function () {
+        $(this).attr("src", "images/Hims/Hims-wires.jpg");
+    });
+});
+
+
 
 
 
