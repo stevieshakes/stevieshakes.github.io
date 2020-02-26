@@ -193,6 +193,7 @@ body {
     align-self: center;
     -webkit-align-self: center;
     text-transform: uppercase;
+    height: 400px;
 }
 
 .mainNav ul li {
@@ -605,11 +606,30 @@ width: 100%
 
   h1 {
     font-size: 1.5em;
+    margin: 20px;
   }
 
   h2 {
     font-size: 0.5em; 
   }
+  
+  .titleSize {
+    font-size: 1em;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    margin: 20px;
+  }
+
+  .heading {
+    height: 275px;
+  }
+
+  #shirtSize {
+    width: 30%;
+  }
+
 
   h3 {
     margin-top: 0;
@@ -829,10 +849,24 @@ ul li {
 
   h1 {
     font-size: 2em;
+    margin: 20px;
   }
 
   h2 {
     font-size: 1em; 
+  }
+  
+  .titleSize {
+    font-size: 1.2em;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    margin: 20px;
+  }
+
+  .heading {
+    height: 400px;
   }
 
   h5 {
@@ -842,6 +876,10 @@ ul li {
   #svgSize {
       width: 400px;
       height: 400px;
+    }
+
+    #shirtSize {
+      width: 40%;
     }
 
 
@@ -861,7 +899,6 @@ ul li {
     text-align: center;
     padding: 24px;
 }
-
 
 }
 
