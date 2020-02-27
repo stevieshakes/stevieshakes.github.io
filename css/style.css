@@ -111,8 +111,9 @@ body {
 
     .squareStyle {
   fill: none;
-  stroke-width: 0.5px;
+  stroke-width: 0.3px;
   stroke: #ffffff;
+  opacity: 50%;
   stroke-dasharray: 40;
   stroke-dashoffset: 50%;
   -webkit-animation: movedash 1.5s forwards 0s;
