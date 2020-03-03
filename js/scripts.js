@@ -286,6 +286,17 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+    $('.JetBlue')
+        .mouseover(function () {
+        $(this).attr("src", "images/JetBlue/JetBlue-hifi.jpg");
+    })
+        .mouseout(function () {
+        $(this).attr("src", "images/JetBlue/JetBlue-wires.jpg");
+    });
+});
+
+
+$(document).ready(function () {
     $('.Hims')
         .mouseover(function () {
         $(this).attr("src", "images/Hims/Hims-hifi.jpg");
